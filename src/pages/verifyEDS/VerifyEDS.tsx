@@ -97,12 +97,12 @@ const VerifyEds = () => {
                 Download log file
               </a>
             )}
+          </div>
+        )}
 
-            {error && (
-              <div className={'max-w-2xl flex flex-col justify-center items-center gap-4'}>
-                <div className={'text-red-500 dark:text-red-300'}>{error}</div>
-              </div>
-            )}
+        {error && (
+          <div className={'max-w-2xl flex flex-col justify-center items-center gap-4'}>
+            <div className={'text-red-500 dark:text-red-300'}>{error}</div>
           </div>
         )}
       </div>

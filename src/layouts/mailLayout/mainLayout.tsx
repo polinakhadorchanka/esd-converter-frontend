@@ -6,7 +6,7 @@ const MainLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <div
       className={
-        'flex flex-col w-screen min-h-screen ' +
+        'flex flex-col w-full min-h-screen ' +
         'text-sm bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-50'
       }>
       <Header />
